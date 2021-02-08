@@ -1,3 +1,5 @@
+import './index.css';
+
 const header = document.querySelector('.header');
 
 window.onscroll = function() {
@@ -8,5 +10,3 @@ window.onscroll = function() {
     header.classList.remove('active');
   }
 }
-
-

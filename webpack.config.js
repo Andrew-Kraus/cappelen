@@ -72,7 +72,8 @@ plugins: [
         template: 'src/index.html',
         filename: 'index.html',
         inject: true,
-        chunks: ["index"]
+        chunks: ["index"],
+        favicon: './images/icon.ico'
     }),
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
