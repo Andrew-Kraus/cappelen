@@ -18,3 +18,31 @@
   font-weight: normal;
   src: url("./fonts/Hind-Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Yanone';
+  font-style:  normal;
+  font-weight: normal;
+  src: url("./fonts/YanoneKaffeesatz-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  font-style:  normal;
+  font-weight: normal;
+  src: url("./fonts/GothamPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style:  normal;
+  font-weight: normal;
+  src: url("./fonts/GothamPro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gotham Narrow';
+  font-style:  normal;
+  font-weight: normal;
+  src: url("./fonts/GothamProNarrow-Medium.woff") format("woff");
+}

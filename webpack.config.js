@@ -8,8 +8,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
 entry: {
-  index: './src/index.js',
-  saved: './src/saved.js'
+  index: './src/index.js'
 },
 output: {
     filename: '[name].[chunkhash].js',
@@ -75,12 +74,6 @@ plugins: [
         inject: true,
         chunks: ["index"]
     }),
-    new HtmlWebpackPlugin({
-      template: 'src/saved.html',
-      filename: 'saved.html',
-      inject: true,
-      chunks: ["saved"]
-  }),
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
