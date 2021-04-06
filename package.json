@@ -42,6 +42,8 @@
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
-    "local-storage": "^2.0.0"
+    "aos": "^2.3.4",
+    "local-storage": "^2.0.0",
+    "swup": "^2.0.14"
   }
 }

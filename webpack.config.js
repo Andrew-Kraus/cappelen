@@ -8,7 +8,11 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
 entry: {
-  index: './src/index.js'
+  index: './src/index.js',
+  products: './src/products.js',
+  news: './src/news.js',
+  growth: './src/growth.js',
+  contacts: './src/contacts.js',
 },
 output: {
     filename: '[name].[chunkhash].js',
@@ -75,6 +79,36 @@ plugins: [
         chunks: ["index"],
         favicon: './images/icon.ico'
     }),
+    new HtmlWebpackPlugin({
+        template: 'src/products.html',
+        filename: 'products.html',
+        inject: true,
+        chunks: ["products"],
+        favicon: './images/icon.ico'
+  }),
+    new HtmlWebpackPlugin({
+        template: 'src/news.html',
+        filename: 'news.html',
+        inject: true,
+        chunks: ["news"],
+        favicon: './images/icon.ico'
+}),
+    new HtmlWebpackPlugin({
+        template: 'src/growth.html',
+        filename: 'growth.html',
+        inject: true,
+        chunks: ["growth"],
+        favicon: './images/icon.ico'
+}),
+
+    new HtmlWebpackPlugin({
+        template: 'src/contacts.html',
+        filename: 'contacts.html',
+        inject: true,
+        chunks: ["contacts"],
+        favicon: './images/icon.ico'
+}),
+
     new WebpackMd5Hash(),
     new webpack.DefinePlugin({
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
