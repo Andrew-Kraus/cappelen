@@ -2,6 +2,7 @@ import './index.css';
 
 const header = document.querySelector('.header');
 const buttonShowMore = document.querySelector('.button-more');
+const buttonShowMoreMobile = document.querySelector('.button-more-mobile');
 const partnersHide = document.querySelectorAll('.partners-hide');
 const mobileMenuButton = document.querySelector('.header__menu');
 const mobileMenu = document.querySelector('.mobile-menu');
@@ -15,10 +16,18 @@ window.onscroll = function() {
   }
 };
 
-buttonShowMore.addEventListener('click', () => {
+function partnersToggle() {
   partnersHide.forEach((element) => {
     element.classList.toggle('partners-hide');
   });
+}
+
+buttonShowMore.addEventListener('click', () => {
+  partnersToggle();
+});
+
+buttonShowMoreMobile.addEventListener('click', () => {
+  partnersToggle();
 });
 
 mobileMenuButton.addEventListener('click', () => {
