@@ -1,0 +1,15 @@
+.news__card-image {
+  width: 300px;
+  height: 200px;
+  transition: 1.5s ease;
+}
+
+.news__card-image:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .news__card-image {
+    width: 280px;
+  }
+}

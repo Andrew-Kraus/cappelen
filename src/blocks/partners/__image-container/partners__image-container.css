@@ -1,0 +1,27 @@
+.partners__image-container {
+  width: 460px;
+}
+
+@media screen and (max-width: 1400px) {
+  .partners__image-container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .partners__image-container {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .partners__image-container {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .partners__image-container {
+    width: 200px;
+  }
+}

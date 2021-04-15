@@ -1,0 +1,8 @@
+.news__card-subtitle {
+  color: #515769;;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

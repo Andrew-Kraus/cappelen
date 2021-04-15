@@ -1,0 +1,14 @@
+@import url(./__text/mobile-menu__text.css);
+
+.mobile-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+  right: 0;
+  background:rgba(29, 40, 57, .6);
+  z-index: 3;
+  max-width: 480px;
+  padding-bottom: 10px;
+  backdrop-filter: blur(4px);
+}

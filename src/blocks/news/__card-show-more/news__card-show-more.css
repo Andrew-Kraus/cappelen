@@ -1,0 +1,12 @@
+.news__card-show-more {
+  color: #515769;
+  opacity: 0.6;
+  float: right;
+  cursor: pointer;
+  transition: 0.5s linear;
+  text-decoration: none;
+}
+
+.news__card-show-more:hover {
+  opacity: 1;
+}

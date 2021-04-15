@@ -1,0 +1,20 @@
+.contacts__title {
+  color: #515769;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: 'Gotham Medium';
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__title {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__title {
+    font-size: 49px;
+  }
+}

@@ -1,0 +1,16 @@
+.contacts__map-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__map-mobile {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .contacts__map-mobile {
+    display: none;
+  }
+}

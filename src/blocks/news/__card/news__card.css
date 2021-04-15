@@ -1,0 +1,14 @@
+.news__card {
+  width: 300px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .news__card {
+    width: 280px;
+  }
+}

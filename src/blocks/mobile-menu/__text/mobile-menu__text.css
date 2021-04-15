@@ -1,0 +1,8 @@
+.mobile-menu__text {
+  font-size: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-left: 40px;
+  text-shadow: 1px 1px 1px #000;
+}

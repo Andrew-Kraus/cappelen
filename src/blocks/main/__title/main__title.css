@@ -1,0 +1,17 @@
+.main__title {
+  font-family: 'Gotham Medium';
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1920px) {
+  .main__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__title {
+    font-size: 30px;
+  }
+}

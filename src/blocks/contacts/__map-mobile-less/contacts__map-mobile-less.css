@@ -1,0 +1,9 @@
+.contacts__map-mobile-less {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .contacts__map-mobile-less {
+    display: block;
+  }
+}

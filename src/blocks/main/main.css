@@ -1,0 +1,10 @@
+@import url(./__container-text/main__container-text.css);
+@import url(./__container/main__container.css);
+@import url(./__subtitle/main__subtitle.css);
+@import url(./__title/main__title.css);
+
+
+.main {
+  z-index: 1;
+  position: relative;
+}

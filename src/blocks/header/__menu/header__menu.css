@@ -1,0 +1,17 @@
+.header__menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  .header__menu {
+    display: block;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu {
+    padding-left: 0px;
+  }
+}

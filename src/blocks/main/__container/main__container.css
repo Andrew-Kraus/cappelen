@@ -1,0 +1,41 @@
+.main__container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .main__container {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .main__container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main__container {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__container {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__container {
+    max-width: 220px;
+    margin: 0;
+  }
+}

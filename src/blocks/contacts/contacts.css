@@ -1,0 +1,14 @@
+@import url(./__container-text/contacts__container-text.css);
+@import url(./__container/contacts__container.css);
+@import url(./__email/contacts__email.css);
+@import url(./__map-mobile-less/contacts__map-mobile-less.css);
+@import url(./__map-mobile/contacts__map-mobile.css);
+@import url(./__map/contacts__map.css);
+@import url(./__phone/contacts__phone.css);
+@import url(./__title/contacts__title.css);
+@import url(./__adress/contacts__adress.css);
+
+.contacts {
+  background-image: url('/images/514.png');
+  padding-bottom: 50px;
+}

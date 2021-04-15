@@ -1,0 +1,15 @@
+@import url(./__grid/partners__grid.css);
+@import url(./__image-container/partners__image-container.css);
+@import url(./__image-padding-mobile/partners__image-padding-mobile.css);
+@import url(./__image-padding/partners__image-padding.css);
+@import url(./__image/partners__image.css);
+@import url(./button-more/button-more.css);
+@import url(./partners-hide/partners-hide.css);
+
+.partners {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fafafa;
+  background-image: url('/images/—Pngtree—flat-white-background_442279.jpg');
+  width: 100%;
+}

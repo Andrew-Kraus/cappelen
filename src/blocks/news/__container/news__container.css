@@ -1,0 +1,22 @@
+.news__container {
+  margin: 0 auto;
+  width: 990px;
+}
+
+@media screen and (max-width: 1024px) {
+  .news__container {
+    width: 910px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .news__container {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news__container {
+    width: 280px;
+  }
+}

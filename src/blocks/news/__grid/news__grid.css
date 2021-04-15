@@ -1,0 +1,27 @@
+.news__grid {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 920px) {
+  .news__grid {
+    display: grid;
+    grid-template-columns: repeat(2,280px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news__grid {
+    display: grid;
+    grid-template-columns: repeat(1,280px);
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+    max-width: 480px;
+    width: 280px;
+    margin: 0 auto;
+  }
+}

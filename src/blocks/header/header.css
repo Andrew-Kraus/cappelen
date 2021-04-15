@@ -1,0 +1,44 @@
+@import url(./__container-text/header__container-text.css);
+@import url(./__inner/header__inner.css);
+@import url(./__logo-mobile/header__logo-mobile.css);
+@import url(./__logo/header__logo.css);
+@import url(./__menu/header__menu.css);
+@import url(./__text/header__text.css);
+@import url(./__text-underline/header__text-underline.css);
+@import url(./header-bg/header-bg.css);
+
+
+.header {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  max-width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  background:rgba(29, 40, 57, .6);
+  z-index: 2;
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    max-width: 1920px;
+  }
+}
+
+
+.header.active {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  max-width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  background:rgba(0, 0, 0, .6);
+  z-index: 2;
+}
+
+@media screen and (min-width: 1920px) {
+  .header.active {
+    max-width: 1920px;
+  }
+}
